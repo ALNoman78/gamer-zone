@@ -1,0 +1,60 @@
+:root{
+    --primary-size: 1.125rem;
+    --color: #fff;
+    --large-font: 3rem;
+    --base-font-size : 2rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+/* nav styles start */
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+    height: 130px;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav ul li {
+    padding: 20px 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(60, 53, 79);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.nav-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 17px 24px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.1);
+}
+
+#nav-logo-yt{
+    color: red;
+}
+/* nav styles end */
