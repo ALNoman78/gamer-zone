@@ -1,9 +1,10 @@
-:root{
+:root {
     --primary-size: 1.125rem;
     --color: #fff;
     --large-font: 3rem;
-    --base-font-size : 2rem;
+    --base-font-size: 2rem;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -54,7 +55,79 @@ nav ul li a {
     background: rgba(11, 2, 35, 0.1);
 }
 
-#nav-logo-yt{
+#nav-logo-yt {
     color: red;
 }
+
 /* nav styles end */
+
+/* banner content styles start */
+.banner-content-image,
+.banner-content-text {
+    width: 50%;
+}
+
+.banner-container{
+    background-image: url('../images/Group\ 14.png');
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+.banner-content-icon {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 15px 0;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-sub-content-icon {
+    width: 362px;
+    margin: 0 auto;
+}
+
+.banner-sub-content-icon h3 {
+    font-size: 94px;
+    background: linear-gradient(180.00deg, rgb(249, 72, 178), rgb(135, 88, 241));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 800;
+    line-height: 111px;
+}
+
+.banner-sub-content-icon p {
+    text-transform: uppercase;
+    font-size: var(--large-font);
+    font-weight: 600;
+}
+
+.primary-banner-btn {
+    margin-top: 20px;
+}
+
+.primary-banner-btn button {
+    border: 0;
+    outline: 0;
+    padding: 21px 40px;
+    border-radius: 49px;
+    font-size: var(--primary-size);
+    font-weight: 600;
+}
+
+.banner-pr-btn {
+    border-radius: 48px;
+    background: linear-gradient(90.00deg, rgb(255, 66, 165) 13.134%, rgb(255, 66, 165) 87.942%);
+    color: var(--color);
+}
+
+.banner-pr-btn-two {
+    color: var(--color);
+    background: rgb(78, 197, 247);
+    margin-left: 24px;
+}
+
+/* banner content styles end */
