@@ -110,7 +110,9 @@ nav ul li a {
     margin-top: 20px;
 }
 
-.primary-banner-btn button {
+.primary-banner-btn button ,
+.gamer-content-text button
+{
     border: 0;
     outline: 0;
     padding: 21px 40px;
@@ -119,7 +121,9 @@ nav ul li a {
     font-weight: 600;
 }
 
-.banner-pr-btn {
+.banner-pr-btn ,
+ .gamer-content-text button
+ {
     border-radius: 48px;
     background: linear-gradient(90.00deg, rgb(255, 66, 165) 13.134%, rgb(255, 66, 165) 87.942%);
     color: var(--color);
@@ -132,3 +136,69 @@ nav ul li a {
 }
 
 /* banner content styles end */
+
+/* main */
+main section{
+    margin-top: 120px;
+}
+/* main i\end */
+/* gamer section styles start */
+
+.gamer-container{
+    background: linear-gradient(90.00deg, rgba(255, 66, 165, 0.03) 13.134%,rgba(255, 66, 165, 0.03) 87.942%);
+    padding: 60px 240px;
+    margin-top: 0;
+}
+.gamer-content-text .gamer-content-title,
+.online-games-conetent-text h3 >span
+{
+    background: linear-gradient(180.00deg, rgb(249, 72, 178), rgb(135, 88, 241));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+    font-size: var(--large-font);
+    margin-bottom: 24px;
+}
+.gamer-content-text{
+    max-width: 540px;
+    height: auto;
+    text-align: right;
+}
+.gamer-content-description{
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+.gamer-content-sub-desc{
+    font-weight: 700;
+    font-size: var(--large-font);
+    margin-top: 24px;
+}
+.gamer-content-sub-desc span{
+    font-size: var(--primary-size);
+    font-weight: normal;
+}
+
+/* gamer section styles end */
+
+/* online game section styles start */
+.online-games-conetent-text h3{
+    font-size: var(--large-font);
+    color: #0B0223;
+}
+/* online game section styles end */
+
+/* shared styles start */
+.display-flex{
+    display: flex;
+    align-items: center;
+}
+.dark-gray{
+    color: rgb(83, 76, 100);
+    font-size: var(--primary-size);
+    margin-top: 14px;
+}
+.text-align{
+    text-align: center;
+}
+/* shared styles end */
+
