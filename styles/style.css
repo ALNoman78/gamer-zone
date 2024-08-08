@@ -285,6 +285,51 @@ main section {
 }
 /* play-instantly-container-two style end */
 
+/* career section styles start */
+
+.career-container{
+    background: linear-gradient(90.00deg, rgb(255, 66, 165) 13.134%,rgb(255, 66, 165) 87.942%);
+    justify-content: space-between;
+}
+.career-content-text{
+    margin: 100px;
+    padding: 20px;
+}
+.career-content-text p{
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+.career-content-text h3{
+    font-size: var(--large-font);
+    color: var(--color);
+    width: 680px;
+    margin-bottom: 24px;
+}
+.sub-content-career{
+    justify-content: space-between;
+}
+.sub-content-career ul {
+    list-style: none;
+    line-height: 40px;
+}
+#font-weight{
+    font-weight: 600;
+    text-align: right;
+}
+.career-content-text button{
+    margin-top: 40px;
+    padding: 21px 40px;
+    border: none;
+    outline: 0;
+    font-size: var(--primary-size);
+    font-weight: 600;
+    background-color: var(--color);
+    color: rgb(255, 66, 165);
+    border-radius: 48px;
+    cursor: pointer;
+}
+/* career section styles end */
+
 /* shared styles start */
 .display-flex {
     display: flex;
@@ -304,5 +349,7 @@ main section {
 .semi-bold {
     font-weight: 600;
 }
-
+.color-fff{
+    color: #fff;
+}
 /* shared styles end */
