@@ -27,6 +27,7 @@ nav {
     display: flex;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 }
 
 nav ul li {
@@ -36,6 +37,7 @@ nav ul li {
 nav ul {
     display: flex;
     list-style: none;
+    cursor: pointer;
 }
 
 nav ul li a {
@@ -67,11 +69,6 @@ nav ul li a {
     width: 50%;
 }
 
-.banner-container{
-    background-image: url('../images/Group\ 14.png');
-    background-position: top left;
-    background-repeat: no-repeat;
-}
 .banner-content-icon {
     display: flex;
     align-items: center;
@@ -83,11 +80,15 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('../images/Group\ 14.png');
+    background-position: top left;
+    background-repeat: no-repeat;
 }
 
 .banner-sub-content-icon {
     width: 362px;
     margin: 0 auto;
+    height: auto;
 }
 
 .banner-sub-content-icon h3 {
