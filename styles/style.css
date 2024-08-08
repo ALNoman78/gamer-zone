@@ -156,9 +156,9 @@ main section {
 }
 
 .gamer-content-text .gamer-content-title,
-.online-games-conetent-text h3>span,
 .play-instant-text h3>span,
-.play-instant-text-two h3>span {
+.play-instant-text-two h3>span ,
+.online-games-content-text h3 > span{
     background: linear-gradient(180.00deg, rgb(249, 72, 178), rgb(135, 88, 241));
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -393,7 +393,9 @@ main section {
 .color-fff {
     color: #fff;
 }
-
+.hide{
+    display: none;
+}
 /* shared styles end */
 
 /* footer section style start */

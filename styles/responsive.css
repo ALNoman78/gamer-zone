@@ -1,0 +1,124 @@
+@media screen and (max-width: 576px) {
+
+    nav ul,
+    nav,
+    .banner-container,
+    .gamer-container,
+    .play-instantly-container,
+    .play-instantly-container-two,
+    .career-container,
+    .career-container {
+        flex-direction: column;
+    }
+
+    .banner-content-image img,
+    .gamer-content-img img,
+    .play-content-img-relative,
+    .career-content img{
+        width: 100%;
+    }
+    .gamer-container,
+    .online-games-container,
+    .game-box-container,
+    .footer-container{
+        padding: 0;
+    }
+    .gamer-content-text,
+    .play-instant-text h3 ,
+    .play-instant-text-two h3,
+    .play-instant-text-two p,
+    .play-instant-text p{
+        text-align: center;
+        padding: 10px;
+    }
+    .online-games-content{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .banner-container{
+        margin-top: 120px;
+    }
+    .banner-content-text
+    {
+        width: 90%;
+    }
+    .content{
+        flex-wrap: wrap;
+    }
+    .play-instantly-container,
+    .play-instant-img-two,
+    .play-instantly-container-two{
+        width: 100%;
+    }
+    .banner-sub-content-icon p{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .banner-sub-content-icon h3,
+    .gamer-content-text h3,
+    .online-games-content-text h3,
+    .online-games-content-text h3 > span,
+    .play-instant-text h3 ,
+    .play-instant-text h3 > span,
+    .play-instant-text-two h3,
+    .play-instant-text-two h3> span
+    {
+        line-height: 30px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .banner-content-image-2 img{
+        width: 100%;
+    }
+    .banner-content-image-2{
+        display: block;
+    }
+    .banner-content-image{
+        display: none;
+    }
+    .banner-sub-content-icon,
+    .play-instant-text-two {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .primary-banner-btn button,
+    .gamer-content-text button {
+        padding: 10px 20px;
+    }
+    .online-games-content .item{
+        width: 100%;
+        height: auto;
+    }
+    .play-instant-img img,
+    .play-instant-img-two{
+        width: 100%;
+    }
+    .item img{
+        width: 100%;
+    }
+    #width{
+        width: 50%;
+    }
+    .play-content-img-absolute{
+        left: 7%;
+        top: 871%;
+    }
+    nav{
+        box-shadow: none;
+    }
+    main section{
+        margin-top: 40px;
+        padding: 10px;
+    }
+    .play-instant-img-two img{
+        width: 100%;
+    }
+    .online-games-content-text{
+        padding: 10px;
+    }
+    .play-instant-text{
+        padding: 10px;
+    }
+    .play-instant-text-two{
+        padding: 10px;
+    }
+}
