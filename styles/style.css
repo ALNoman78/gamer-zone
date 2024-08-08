@@ -110,9 +110,8 @@ nav ul li a {
     margin-top: 20px;
 }
 
-.primary-banner-btn button ,
-.gamer-content-text button
-{
+.primary-banner-btn button,
+.gamer-content-text button {
     border: 0;
     outline: 0;
     padding: 21px 40px;
@@ -121,9 +120,8 @@ nav ul li a {
     font-weight: 600;
 }
 
-.banner-pr-btn ,
- .gamer-content-text button
- {
+.banner-pr-btn,
+.gamer-content-text button {
     border-radius: 48px;
     background: linear-gradient(90.00deg, rgb(255, 66, 165) 13.134%, rgb(255, 66, 165) 87.942%);
     color: var(--color);
@@ -138,20 +136,23 @@ nav ul li a {
 /* banner content styles end */
 
 /* main */
-main section{
+main section {
     margin-top: 120px;
 }
+
 /* main i\end */
 /* gamer section styles start */
 
-.gamer-container{
-    background: linear-gradient(90.00deg, rgba(255, 66, 165, 0.03) 13.134%,rgba(255, 66, 165, 0.03) 87.942%);
+.gamer-container {
+    background: linear-gradient(90.00deg, rgba(255, 66, 165, 0.03) 13.134%, rgba(255, 66, 165, 0.03) 87.942%);
     padding: 60px 240px;
     margin-top: 0;
 }
+
 .gamer-content-text .gamer-content-title,
-.online-games-conetent-text h3 >span
-{
+.online-games-conetent-text h3>span,
+.play-instant-text h3>span,
+.play-instant-text-two h3>span {
     background: linear-gradient(180.00deg, rgb(249, 72, 178), rgb(135, 88, 241));
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -159,21 +160,25 @@ main section{
     font-size: var(--large-font);
     margin-bottom: 24px;
 }
-.gamer-content-text{
+
+.gamer-content-text {
     max-width: 540px;
     height: auto;
     text-align: right;
 }
-.gamer-content-description{
+
+.gamer-content-description {
     line-height: 30px;
     margin-bottom: 32px;
 }
-.gamer-content-sub-desc{
+
+.gamer-content-sub-desc {
     font-weight: 700;
     font-size: var(--large-font);
     margin-top: 24px;
 }
-.gamer-content-sub-desc span{
+
+.gamer-content-sub-desc span {
     font-size: var(--primary-size);
     font-weight: normal;
 }
@@ -181,24 +186,123 @@ main section{
 /* gamer section styles end */
 
 /* online game section styles start */
-.online-games-conetent-text h3{
+
+.online-games-container {
+    padding: 0 240px;
+}
+
+.online-games-content-text {
+    margin-bottom: 3rem;
+}
+
+.online-games-content-text h3 {
     font-size: var(--large-font);
     color: #0B0223;
 }
+
+.online-games-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.online-games-content .item {
+    width: 345px;
+    height: auto;
+}
+
+#filter-items {
+    filter: brightness(65%)
+}
+
 /* online game section styles end */
 
+/* play instant section styles start */
+.play-instantly-container {
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.play-instant-text{
+    width: 353px;
+}
+
+.play-content-img-relative,
+.play-content-img-relative-two {
+    position: relative;
+}
+
+.play-content-img-absolute {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 300%;
+}
+
+.play-instant-text p {
+    text-align: right;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+.play-instant-text h3 ,
+.play-instant-text-two h3 {
+    font-size: var(--large-font);
+    font-weight: 700;
+    text-align: right;
+}
+
+/* play instant section styles end */
+
+/* play-instantly-container-two style start */
+.play-instantly-container-two {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.play-content-img-absolute-another-two {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 49%;
+    top: 395%;
+}
+
+.play-instant-img-two {
+    width: 850px;
+}
+.play-instant-text-two h3{
+    text-align: left;
+}
+.play-instant-text-two{
+    width: 490px;
+    padding: 19px;
+}
+.play-instant-text-two p {
+    line-height: 30px;
+}
+/* play-instantly-container-two style end */
+
 /* shared styles start */
-.display-flex{
+.display-flex {
     display: flex;
     align-items: center;
 }
-.dark-gray{
+
+.dark-gray {
     color: rgb(83, 76, 100);
     font-size: var(--primary-size);
     margin-top: 14px;
 }
-.text-align{
+
+.text-align {
     text-align: center;
 }
-/* shared styles end */
 
+.semi-bold {
+    font-weight: 600;
+}
+
+/* shared styles end */
